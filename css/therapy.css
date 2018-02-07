@@ -1,0 +1,439 @@
+*{
+    margin:0;
+    padding:0;
+}      
+html{
+    overflow:hidden;
+}
+html,body{
+    height:100%;
+}
+body {
+    font-family:"Open Sans",Helvetica,Sans-serif;
+    color:#fff;
+    overflow:hidden;
+    overflow-y:auto;
+    -webkit-transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;
+    transform-style:preserve-3d
+}
+nav {
+    background-color: rgba(46, 52, 54, .95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: text-top;
+    transition: all 0.4s ease;
+}
+nav li {
+    position: relative;
+    bottom: 14px;
+}
+a, a:visiter, a:hover, a:active {
+    text-decoration: none;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgba(192, 192, 192, .5);
+}
+ul img {
+    width: 150px;
+}
+nav li {
+    display: inline-block;
+    width: 15%;
+    font-size: 24px;
+    vertical-align: middle;
+}
+ul li {
+   
+}
+#form h1{
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    padding: 50px;
+    letter-spacing: .15em;
+    width: 80%;
+    margin: 0 auto;
+}
+.call p{
+    font-size: 2em;
+    font-family: Georgia, serif;
+    width: 100%;
+    display: inline-block;
+    line-height: 2em;
+    letter-spacing: .1em;
+    color: #6cd9be;
+    padding-top: 60px;
+}
+span a {
+    color: #6cd9be;
+}
+
+h2{
+    font-size: 1.2em;
+    font-family: Georgia, serif;
+    width: 25%;
+    display: inline-block;
+    line-height: 2em;
+    letter-spacing: .1em;
+}
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1.3em;
+    color: #6cd9be;
+    padding: 1.75em;
+    letter-spacing: .15em;
+    display: inline-block;
+}
+h4 {
+    font-family: Georgia, serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #6cd9be;
+}
+#address h4 {
+    line-height: 2em; 
+    color: #000000;
+}
+#address h4 a {
+    color: #2e3436;
+}
+#offer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(192, 192, 192);
+    color: #2e3436;
+}
+h1 {  
+    padding: 30px 0;
+}
+.header-content{
+    color:#2e3436;
+    padding:10% 5%;
+    text-align:center;   
+    margin: 0 auto;
+}
+@keyframes logo {
+    0%  {
+        width: 30%;
+    }
+    25% {
+        width: 35%;
+    }
+    50% {
+        width: 40%;
+    }
+    75% {
+        width: 45%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+.header-content img{
+    width: 40%;
+    animation-name: logo;
+    animation-duration: 3s; 
+    animation-fill-mode: forwards; 
+    animation-timing-function: linear;
+}
+.content{
+    width:100%;
+    text-align:center;
+    margin: 0 auto;
+    background-color: rgba(46, 52, 54, .95);
+}
+.content div{
+    width: 80%;
+    text-align:center;
+    margin: 0 auto;
+}
+article h2 {
+    padding: 3%;
+}
+.parallax-container{
+    height:850px;
+    background-color: rgba(192, 192, 192, .5);
+}
+video{  
+    position:fixed;
+    min-width:100%;
+    min-height:100%;
+    top: 50%;
+    left:50%;
+    width:auto;
+    height:auto;
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    -moz-transform:translateX(-50%) translateY(-50%);
+    transform:translateX(-50%) translateY(-50%);
+    z-index:-99
+}
+
+div h2 {
+    margin: 50px 0;
+}
+#tagline {
+    width: 75%;
+}
+h2 img {
+    width: 40%;
+}
+hr {
+    width: 80%;
+    margin: 160px auto 40px auto;
+}
+p span {
+    padding-left: 40px;
+}
+#services, #therapists {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+#therapists {
+    margin: 40px auto 80px auto;
+    padding-top: 50px;
+}
+#therapists img, #therapists p {
+    padding: 20px;
+}
+#therapists p {
+    line-height: 2em;
+}
+figure, #therapists p {
+    padding-top: 160px;
+}
+figcaption {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+}
+#services {
+    padding-top: 50px;
+}
+#services h2 {
+    font-size: 1.2em;
+    transition-duration: 2s;
+}
+#services h2:hover {
+    transform: scale(1.5);
+}
+.srvdetails {
+    display: none;
+}
+#about {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(192, 192, 192);
+    align-items: center;
+    color: #2e3436;
+    padding: 40px;
+}
+#about img {
+    padding-right: 40px;
+    height: 100%;
+    width: 55%;
+    padding-top: 25px;
+    
+}
+#about p {
+    text-align: left;
+    padding: 15px;
+    font-size: 1.1em;
+}
+#contact1, #contact2 {
+    padding-top: 50px;
+    margin-top: 100px; 
+    padding-bottom: 50px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#address {
+    background-color: rgb(192, 192, 192);
+    width: 40%;
+    margin: 60px auto;
+}
+#bldg {
+    margin: 0 auto;
+}
+#form {   
+    width: 100%;
+    margin: 0 auto;
+}
+#form h1 {
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    width: 75%;
+    font-size: 1.5em;
+}
+textarea {
+    width: 80%;
+    height: 275px;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+}
+input {
+    line-height: 1.5em;
+    font-size: 1.1em;
+    width: 80%;
+}
+td {
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+input[type='submit'], input[type='reset'] {
+    margin: 1%;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+}
+#map {
+    
+    width: 80%;
+    margin: 0 auto;
+}
+#map h3 {
+    width: 80%;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    padding-top: 15px;
+    height: 35px;
+    color: #000000;
+    background-color: rgba(192, 192, 192, .5);
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .header-content h2, #offer h2 {
+        font-size: 1em;
+        letter-spacing: 0;
+    }
+    .call p {
+        font-size: 1.5em;
+    }
+    #therapists {
+        flex-direction: column;
+    }
+    figure, #therapists p {
+    padding-top: 0;
+    }
+    #contact1, #contact2 {
+        padding: 0;
+    }
+    #contact2 {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    video {
+        display: none;
+    }
+    .parallax-container{    
+        background-image: url(images/therapy.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-color: rgba(192, 192, 192, .5);
+    }
+    .call p {
+        font-size: 1em;
+    }
+    #about, #contact1, #contact2 {
+        flex-direction: column;
+    }
+    #about {
+        padding: 15px;
+    }
+    #about img {
+        height: 50%;
+        padding-right: 0;
+    }
+    #form {
+        padding-top: 50px;
+    }
+    #offer h2 {
+        font-size: .9em;
+    }
+    #address {
+        width: 75%;
+    }
+    nav a {
+        font-size: .8em;
+    }
+    .header-content img{
+        width: 50%;
+    }
+    .parallax-container{
+        height: 500px;
+    }
+    hr {
+    width: 80%;
+    margin: 80px auto 20px auto;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    #offer, #services {
+        flex-direction: column;
+
+    }
+    p span {
+    padding-left: 0;
+    display: block;
+
+    }
+    .header-content img{
+        animation-name: none; 
+    }
+    .header-content h2 {
+        display:none;
+    }
+    #offer h2, #services h2 {
+        width: 75%;
+        margin: 20px auto;
+    }
+    #address {
+        width: 80%;
+    }
+    #address h4 {
+        font-size: 1.1em;
+    }
+    #map, table {
+        width: 100%;
+    }
+    ul img {
+        display: none;
+    }
+    ul li {
+        padding: 25px 12px 0 12px;
+    }
+    nav a {
+        font-size: .6em;
+    }
+    .header-content img{
+        width: 70%;
+    }
+    .parallax-container{
+        height: 300px;
+    }
+    #bldg {
+        width: 80%;
+    }
+}
