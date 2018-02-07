@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-}      
+}
 html{
     overflow:hidden;
 }
@@ -51,7 +51,7 @@ nav li {
     vertical-align: middle;
 }
 ul li {
-   
+
 }
 #form h1{
     font-family: Georgia, serif;
@@ -98,7 +98,7 @@ h4 {
     color: #6cd9be;
 }
 #address h4 {
-    line-height: 2em; 
+    line-height: 2em;
     color: #000000;
 }
 #address h4 a {
@@ -110,13 +110,13 @@ h4 {
     background-color: rgb(192, 192, 192);
     color: #2e3436;
 }
-h1 {  
+h1 {
     padding: 30px 0;
 }
 .header-content{
     color:#2e3436;
     padding:10% 5%;
-    text-align:center;   
+    text-align:center;
     margin: 0 auto;
 }
 @keyframes logo {
@@ -139,8 +139,8 @@ h1 {
 .header-content img{
     width: 40%;
     animation-name: logo;
-    animation-duration: 3s; 
-    animation-fill-mode: forwards; 
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
     animation-timing-function: linear;
 }
 .content{
@@ -161,7 +161,7 @@ article h2 {
     height:850px;
     background-color: rgba(192, 192, 192, .5);
 }
-video{  
+video{
     position:fixed;
     min-width:100%;
     min-height:100%;
@@ -239,7 +239,7 @@ figcaption {
     height: 100%;
     width: 55%;
     padding-top: 25px;
-    
+
 }
 #about p {
     text-align: left;
@@ -248,7 +248,7 @@ figcaption {
 }
 #contact1, #contact2 {
     padding-top: 50px;
-    margin-top: 100px; 
+    margin-top: 100px;
     padding-bottom: 50px;
     width: 90%;
     margin: 0 auto;
@@ -264,7 +264,7 @@ figcaption {
 #bldg {
     margin: 0 auto;
 }
-#form {   
+#form {
     width: 100%;
     margin: 0 auto;
 }
@@ -301,7 +301,7 @@ input[type='submit'], input[type='reset'] {
     height: 40px;
 }
 #map {
-    
+
     width: 80%;
     margin: 0 auto;
 }
@@ -344,8 +344,8 @@ footer {
     video {
         display: none;
     }
-    .parallax-container{    
-        background-image: url(images/therapy.jpg);
+    .parallax-container{
+        background-image: url('../images/therapy.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -400,7 +400,7 @@ footer {
 
     }
     .header-content img{
-        animation-name: none; 
+        animation-name: none;
     }
     .header-content h2 {
         display:none;
