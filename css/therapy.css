@@ -39,7 +39,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color: rgba(192, 192, 192, .5);
+    color: #6cd9be;
 }
 ul img {
     width: 150px;
@@ -218,10 +218,10 @@ figcaption {
 }
 #services h2 {
     font-size: 1.2em;
-    transition-duration: 2s;
+    transition-duration: 5s;
 }
 #services h2:hover {
-    transform: scale(1.5);
+    transform: scale(1.35);
 }
 .srvdetails {
     display: none;
